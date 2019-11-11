@@ -7,7 +7,8 @@ Vue.use(Vuex);
 
 export default new Vuex.Store({
   state: {
-    currentTime: Date.now()
+    currentTime: Date.now(),
+    userData: {}
   },
   mutations,
   actions,

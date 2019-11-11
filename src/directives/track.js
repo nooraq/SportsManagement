@@ -2,10 +2,8 @@
  * 打点统计
  */
 export default {
-  bind(el, { value: args, arg: event }) {
-    el.handler = () => {
-      console.log(`statistic track: event = ${event} args =`, args);
-    };
+  bind(el) {
+    el.handler = () => {};
     el.addEventListener('click', el.handler);
 
     // touch for mobile
